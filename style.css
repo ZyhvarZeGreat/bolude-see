@@ -51,6 +51,7 @@ h1, .price {
 
 img{
     max-width: 100%;
+    min-height: 100%;
     border-radius: 15px 0 0 15px ;
 }
 
@@ -63,6 +64,7 @@ h1{
 .price{
     color:  hsl(158, 36%, 37%);
 }
+
 
 h2{
     margin-bottom: 1rem ;
@@ -83,6 +85,10 @@ p{
     padding: 1.5rem;
     margin-top: -3px;
     border-radius: 0 15px 15px 0;
+}
+.article-img{
+    height: 100%;
+    width: 100%;
 }
 
 .first-list{
